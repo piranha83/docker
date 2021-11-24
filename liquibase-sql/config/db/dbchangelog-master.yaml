@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: changelog/001-Init.sql
+  - include:
+      file: changelog/002-TestAddStackColumn.sql
+  - include:
+      file: changelog/data/001-FillErrorLog.sql
